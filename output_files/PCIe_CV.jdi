@@ -1,0 +1,16 @@
+<sld_project_info>
+  <project>
+    <hash md5_digest_80b="a99693aec3a7a07c87ea"/>
+  </project>
+  <file_info>
+    <file device="5CGXFC7C7F23C8" path="PCIe_CV.sof" usercode="0xFFFFFFFF"/>
+  </file_info>
+  <sld_infos>
+    <sld_info hpath="pcie_cv_qsys:qsys_top" name="qsys_top">
+      <assignment_values>
+        <assignment_value text="QSYS_NAME pcie_cv_qsys HAS_SOPCINFO 1 GENERATION_ID 1509313888"/>
+      </assignment_values>
+      <parameters/>
+    </sld_info>
+  </sld_infos>
+</sld_project_info>
