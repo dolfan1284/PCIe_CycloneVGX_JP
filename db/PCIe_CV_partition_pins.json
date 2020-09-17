@@ -1,0 +1,17 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "refclk",
+					"strict" : false
+				},
+				{
+					"name" : "npor",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

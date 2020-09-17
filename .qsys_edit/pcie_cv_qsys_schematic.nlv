@@ -1,0 +1,26 @@
+# # File gsaved with Nlview version 6.3.8  2013-12-19 bk=1.2992 VDI=34 GEI=35
+# 
+preplace inst pcie_cv_qsys.alt_xcvr_reconfig_0 -pg 1 -lvl 2 -y 150
+preplace inst pcie_cv_qsys.onchip_memory2_0 -pg 1 -lvl 2 -y 30
+preplace inst pcie_cv_qsys -pg 1 -lvl 1 -y 40 -regy -20
+preplace inst pcie_cv_qsys.clk_0 -pg 1 -lvl 1 -y 290
+preplace inst pcie_cv_qsys.pcie_cv_hip_avmm_0 -pg 1 -lvl 2 -y 350
+preplace netloc EXPORT<net_container>pcie_cv_qsys</net_container>(SLAVE)pcie_cv_hip_avmm_0.reconfig_clk_locked,(SLAVE)pcie_cv_qsys.pcie_cv_hip_avmm_0_reconfig_clk_locked) 1 0 2 NJ 520 NJ
+preplace netloc FAN_OUT<net_container>pcie_cv_qsys</net_container>(SLAVE)alt_xcvr_reconfig_0.mgmt_rst_reset,(MASTER)clk_0.clk_reset,(SLAVE)onchip_memory2_0.reset1) 1 1 1 470
+preplace netloc POINT_TO_POINT<net_container>pcie_cv_qsys</net_container>(SLAVE)pcie_cv_hip_avmm_0.reconfig_from_xcvr,(SLAVE)alt_xcvr_reconfig_0.reconfig_from_xcvr) 1 1 1 510
+preplace netloc EXPORT<net_container>pcie_cv_qsys</net_container>(SLAVE)pcie_cv_qsys.pcie_cv_hip_avmm_0_npor,(SLAVE)pcie_cv_hip_avmm_0.npor) 1 0 2 NJ 420 NJ
+preplace netloc EXPORT<net_container>pcie_cv_qsys</net_container>(SLAVE)pcie_cv_hip_avmm_0.hip_serial,(SLAVE)pcie_cv_qsys.pcie_cv_hip_avmm_0_hip_serial) 1 0 2 NJ 400 NJ
+preplace netloc EXPORT<net_container>pcie_cv_qsys</net_container>(SLAVE)pcie_cv_qsys.clk,(SLAVE)clk_0.clk_in) 1 0 1 NJ
+preplace netloc POINT_TO_POINT<net_container>pcie_cv_qsys</net_container>(MASTER)pcie_cv_hip_avmm_0.RxmIrq,(SLAVE)pcie_cv_hip_avmm_0.CraIrq) 1 1 2 590 320 900
+preplace netloc EXPORT<net_container>pcie_cv_qsys</net_container>(MASTER)pcie_cv_qsys.pcie_cv_hip_avmm_0_nreset_status,(MASTER)pcie_cv_hip_avmm_0.nreset_status) 1 2 1 N
+preplace netloc POINT_TO_POINT<net_container>pcie_cv_qsys</net_container>(SLAVE)onchip_memory2_0.s1,(MASTER)pcie_cv_hip_avmm_0.Rxm_BAR0) 1 1 2 550 340 880
+preplace netloc POINT_TO_POINT<net_container>pcie_cv_qsys</net_container>(MASTER)pcie_cv_hip_avmm_0.Rxm_BAR4,(SLAVE)pcie_cv_hip_avmm_0.Cra) 1 1 2 570 300 920
+preplace netloc POINT_TO_POINT<net_container>pcie_cv_qsys</net_container>(SLAVE)alt_xcvr_reconfig_0.reconfig_to_xcvr,(SLAVE)pcie_cv_hip_avmm_0.reconfig_to_xcvr) 1 1 1 530
+preplace netloc EXPORT<net_container>pcie_cv_qsys</net_container>(SLAVE)clk_0.clk_in_reset,(SLAVE)pcie_cv_qsys.reset) 1 0 1 NJ
+preplace netloc POINT_TO_POINT<net_container>pcie_cv_qsys</net_container>(SLAVE)pcie_cv_hip_avmm_0.reconfig_busy,(SLAVE)alt_xcvr_reconfig_0.reconfig_busy) 1 1 1 490
+preplace netloc FAN_OUT<net_container>pcie_cv_qsys</net_container>(SLAVE)onchip_memory2_0.clk1,(MASTER)pcie_cv_hip_avmm_0.coreclkout,(SLAVE)alt_xcvr_reconfig_0.mgmt_clk_clk) 1 1 2 570 120 960
+preplace netloc POINT_TO_POINT<net_container>pcie_cv_qsys</net_container>(MASTER)clk_0.clk,(SLAVE)pcie_cv_hip_avmm_0.refclk) 1 1 1 450
+preplace netloc POINT_TO_POINT<net_container>pcie_cv_qsys</net_container>(MASTER)pcie_cv_hip_avmm_0.Rxm_BAR2,(SLAVE)alt_xcvr_reconfig_0.reconfig_mgmt) 1 1 2 590 140 940
+preplace netloc EXPORT<net_container>pcie_cv_qsys</net_container>(SLAVE)pcie_cv_hip_avmm_0.hip_ctrl,(SLAVE)pcie_cv_qsys.pcie_cv_hip_avmm_0_hip_ctrl) 1 0 2 NJ 380 NJ
+levelinfo -pg 1 0 200 1200
+levelinfo -hier pcie_cv_qsys 210 240 640 980
