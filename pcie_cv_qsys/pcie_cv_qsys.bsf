@@ -1,0 +1,187 @@
+/*
+WARNING: Do NOT edit the input and output ports in this file in a text
+editor if you plan to continue editing the block that represents it in
+the Block Editor! File corruption is VERY likely to occur.
+*/
+/*
+Copyright (C) 2017  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel MegaCore Function License Agreement, or other 
+applicable license agreement, including, without limitation, 
+that your use is for the sole purpose of programming logic 
+devices manufactured by Intel and sold by Intel or its 
+authorized distributors.  Please refer to the applicable 
+agreement for further details.
+*/
+(header "symbol" (version "1.1"))
+(symbol
+	(rect 0 0 736 296)
+	(text "pcie_cv_qsys" (rect 328 -1 385 11)(font "Arial" (font_size 10)))
+	(text "inst" (rect 8 280 20 292)(font "Arial" ))
+	(port
+		(pt 0 72)
+		(input)
+		(text "clk_clk" (rect 0 0 27 12)(font "Arial" (font_size 8)))
+		(text "clk_clk" (rect 4 61 46 72)(font "Arial" (font_size 8)))
+		(line (pt 0 72)(pt 304 72)(line_width 1))
+	)
+	(port
+		(pt 0 112)
+		(input)
+		(text "pcie_cv_hip_avmm_0_hip_ctrl_test_in[31..0]" (rect 0 0 181 12)(font "Arial" (font_size 8)))
+		(text "pcie_cv_hip_avmm_0_hip_ctrl_test_in[31..0]" (rect 4 101 256 112)(font "Arial" (font_size 8)))
+		(line (pt 0 112)(pt 304 112)(line_width 3))
+	)
+	(port
+		(pt 0 128)
+		(input)
+		(text "pcie_cv_hip_avmm_0_hip_ctrl_simu_mode_pipe" (rect 0 0 200 12)(font "Arial" (font_size 8)))
+		(text "pcie_cv_hip_avmm_0_hip_ctrl_simu_mode_pipe" (rect 4 117 256 128)(font "Arial" (font_size 8)))
+		(line (pt 0 128)(pt 304 128)(line_width 1))
+	)
+	(port
+		(pt 736 72)
+		(input)
+		(text "pcie_cv_hip_avmm_0_hip_serial_rx_in0" (rect 0 0 165 12)(font "Arial" (font_size 8)))
+		(text "pcie_cv_hip_avmm_0_hip_serial_rx_in0" (rect 534 61 750 72)(font "Arial" (font_size 8)))
+		(line (pt 736 72)(pt 432 72)(line_width 1))
+	)
+	(port
+		(pt 736 88)
+		(input)
+		(text "pcie_cv_hip_avmm_0_hip_serial_rx_in1" (rect 0 0 164 12)(font "Arial" (font_size 8)))
+		(text "pcie_cv_hip_avmm_0_hip_serial_rx_in1" (rect 536 77 752 88)(font "Arial" (font_size 8)))
+		(line (pt 736 88)(pt 432 88)(line_width 1))
+	)
+	(port
+		(pt 736 104)
+		(input)
+		(text "pcie_cv_hip_avmm_0_hip_serial_rx_in2" (rect 0 0 165 12)(font "Arial" (font_size 8)))
+		(text "pcie_cv_hip_avmm_0_hip_serial_rx_in2" (rect 534 93 750 104)(font "Arial" (font_size 8)))
+		(line (pt 736 104)(pt 432 104)(line_width 1))
+	)
+	(port
+		(pt 736 120)
+		(input)
+		(text "pcie_cv_hip_avmm_0_hip_serial_rx_in3" (rect 0 0 165 12)(font "Arial" (font_size 8)))
+		(text "pcie_cv_hip_avmm_0_hip_serial_rx_in3" (rect 534 109 750 120)(font "Arial" (font_size 8)))
+		(line (pt 736 120)(pt 432 120)(line_width 1))
+	)
+	(port
+		(pt 0 168)
+		(input)
+		(text "pcie_cv_hip_avmm_0_npor_npor" (rect 0 0 139 12)(font "Arial" (font_size 8)))
+		(text "pcie_cv_hip_avmm_0_npor_npor" (rect 4 157 172 168)(font "Arial" (font_size 8)))
+		(line (pt 0 168)(pt 304 168)(line_width 1))
+	)
+	(port
+		(pt 0 184)
+		(input)
+		(text "pcie_cv_hip_avmm_0_npor_pin_perst" (rect 0 0 158 12)(font "Arial" (font_size 8)))
+		(text "pcie_cv_hip_avmm_0_npor_pin_perst" (rect 4 173 202 184)(font "Arial" (font_size 8)))
+		(line (pt 0 184)(pt 304 184)(line_width 1))
+	)
+	(port
+		(pt 0 264)
+		(input)
+		(text "reset_reset_n" (rect 0 0 56 12)(font "Arial" (font_size 8)))
+		(text "reset_reset_n" (rect 4 253 82 264)(font "Arial" (font_size 8)))
+		(line (pt 0 264)(pt 304 264)(line_width 1))
+	)
+	(port
+		(pt 736 136)
+		(output)
+		(text "pcie_cv_hip_avmm_0_hip_serial_tx_out0" (rect 0 0 169 12)(font "Arial" (font_size 8)))
+		(text "pcie_cv_hip_avmm_0_hip_serial_tx_out0" (rect 528 125 750 136)(font "Arial" (font_size 8)))
+		(line (pt 736 136)(pt 432 136)(line_width 1))
+	)
+	(port
+		(pt 736 152)
+		(output)
+		(text "pcie_cv_hip_avmm_0_hip_serial_tx_out1" (rect 0 0 168 12)(font "Arial" (font_size 8)))
+		(text "pcie_cv_hip_avmm_0_hip_serial_tx_out1" (rect 530 141 752 152)(font "Arial" (font_size 8)))
+		(line (pt 736 152)(pt 432 152)(line_width 1))
+	)
+	(port
+		(pt 736 168)
+		(output)
+		(text "pcie_cv_hip_avmm_0_hip_serial_tx_out2" (rect 0 0 169 12)(font "Arial" (font_size 8)))
+		(text "pcie_cv_hip_avmm_0_hip_serial_tx_out2" (rect 528 157 750 168)(font "Arial" (font_size 8)))
+		(line (pt 736 168)(pt 432 168)(line_width 1))
+	)
+	(port
+		(pt 736 184)
+		(output)
+		(text "pcie_cv_hip_avmm_0_hip_serial_tx_out3" (rect 0 0 169 12)(font "Arial" (font_size 8)))
+		(text "pcie_cv_hip_avmm_0_hip_serial_tx_out3" (rect 528 173 750 184)(font "Arial" (font_size 8)))
+		(line (pt 736 184)(pt 432 184)(line_width 1))
+	)
+	(port
+		(pt 736 224)
+		(output)
+		(text "pcie_cv_hip_avmm_0_nreset_status_reset_n" (rect 0 0 188 12)(font "Arial" (font_size 8)))
+		(text "pcie_cv_hip_avmm_0_nreset_status_reset_n" (rect 506 213 746 224)(font "Arial" (font_size 8)))
+		(line (pt 736 224)(pt 432 224)(line_width 1))
+	)
+	(port
+		(pt 0 224)
+		(output)
+		(text "pcie_cv_hip_avmm_0_reconfig_clk_locked_fixedclk_locked" (rect 0 0 243 12)(font "Arial" (font_size 8)))
+		(text "pcie_cv_hip_avmm_0_reconfig_clk_locked_fixedclk_locked" (rect 4 213 328 224)(font "Arial" (font_size 8)))
+		(line (pt 0 224)(pt 304 224)(line_width 1))
+	)
+	(drawing
+		(text "clk" (rect 289 43 596 99)(font "Arial" (color 128 0 0)(font_size 9)))
+		(text "clk" (rect 309 67 636 144)(font "Arial" (color 0 0 0)))
+		(text "pcie_cv_hip_avmm_0_hip_ctrl" (rect 128 83 418 179)(font "Arial" (color 128 0 0)(font_size 9)))
+		(text "test_in" (rect 309 107 660 224)(font "Arial" (color 0 0 0)))
+		(text "simu_mode_pipe" (rect 309 123 702 256)(font "Arial" (color 0 0 0)))
+		(text "pcie_cv_hip_avmm_0_hip_serial" (rect 433 43 1040 99)(font "Arial" (color 128 0 0)(font_size 9)))
+		(text "rx_in0" (rect 402 67 840 144)(font "Arial" (color 0 0 0)))
+		(text "rx_in1" (rect 403 83 842 176)(font "Arial" (color 0 0 0)))
+		(text "rx_in2" (rect 402 99 840 208)(font "Arial" (color 0 0 0)))
+		(text "rx_in3" (rect 402 115 840 240)(font "Arial" (color 0 0 0)))
+		(text "tx_out0" (rect 397 131 836 272)(font "Arial" (color 0 0 0)))
+		(text "tx_out1" (rect 398 147 838 304)(font "Arial" (color 0 0 0)))
+		(text "tx_out2" (rect 397 163 836 336)(font "Arial" (color 0 0 0)))
+		(text "tx_out3" (rect 397 179 836 368)(font "Arial" (color 0 0 0)))
+		(text "pcie_cv_hip_avmm_0_npor" (rect 145 139 428 291)(font "Arial" (color 128 0 0)(font_size 9)))
+		(text "npor" (rect 309 163 642 336)(font "Arial" (color 0 0 0)))
+		(text "pin_perst" (rect 309 179 672 368)(font "Arial" (color 0 0 0)))
+		(text "pcie_cv_hip_avmm_0_nreset_status" (rect 433 195 1058 403)(font "Arial" (color 128 0 0)(font_size 9)))
+		(text "reset_n" (rect 396 219 834 448)(font "Arial" (color 0 0 0)))
+		(text "pcie_cv_hip_avmm_0_reconfig_clk_locked" (rect 55 195 338 403)(font "Arial" (color 128 0 0)(font_size 9)))
+		(text "fixedclk_locked" (rect 309 219 708 448)(font "Arial" (color 0 0 0)))
+		(text "reset" (rect 275 235 580 483)(font "Arial" (color 128 0 0)(font_size 9)))
+		(text "reset_n" (rect 309 259 660 528)(font "Arial" (color 0 0 0)))
+		(text " system " (rect 701 280 1450 570)(font "Arial" ))
+		(line (pt 304 32)(pt 432 32)(line_width 1))
+		(line (pt 432 32)(pt 432 280)(line_width 1))
+		(line (pt 304 280)(pt 432 280)(line_width 1))
+		(line (pt 304 32)(pt 304 280)(line_width 1))
+		(line (pt 305 52)(pt 305 76)(line_width 1))
+		(line (pt 306 52)(pt 306 76)(line_width 1))
+		(line (pt 305 92)(pt 305 132)(line_width 1))
+		(line (pt 306 92)(pt 306 132)(line_width 1))
+		(line (pt 431 52)(pt 431 188)(line_width 1))
+		(line (pt 430 52)(pt 430 188)(line_width 1))
+		(line (pt 305 148)(pt 305 188)(line_width 1))
+		(line (pt 306 148)(pt 306 188)(line_width 1))
+		(line (pt 431 204)(pt 431 228)(line_width 1))
+		(line (pt 430 204)(pt 430 228)(line_width 1))
+		(line (pt 305 204)(pt 305 228)(line_width 1))
+		(line (pt 306 204)(pt 306 228)(line_width 1))
+		(line (pt 305 244)(pt 305 268)(line_width 1))
+		(line (pt 306 244)(pt 306 268)(line_width 1))
+		(line (pt 0 0)(pt 736 0)(line_width 1))
+		(line (pt 736 0)(pt 736 296)(line_width 1))
+		(line (pt 0 296)(pt 736 296)(line_width 1))
+		(line (pt 0 0)(pt 0 296)(line_width 1))
+	)
+)
